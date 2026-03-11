@@ -158,7 +158,7 @@ export default function App() {
       alignItems: "center",
       justifyContent: "center",
       padding: "24px 16px",
-      fontFamily: "'Georgia', 'Times New Roman', serif",
+      fontFamily: "'Inter', 'Segoe UI', sans-serif",
     }}>
       {/* Header */}
       <div style={{ textAlign: "center", marginBottom: 32 }}>
@@ -169,7 +169,7 @@ export default function App() {
           textTransform: "uppercase",
           marginBottom: 8,
           fontFamily: "monospace",
-        }}>BLOCKCHAIN — DEEP ANALYSIS</div>
+        }}>BLOCKCHAIN ARCHITECTURE</div>
         <h1 style={{
           fontSize: 22,
           fontWeight: 400,
