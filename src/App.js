@@ -158,7 +158,7 @@ export default function App() {
       alignItems: "center",
       justifyContent: "center",
       padding: "24px 16px",
-      fontFamily: "'Inter', 'Segoe UI', sans-serif",
+      fontFamily: "'DM Sans', sans-serif",
     }}>
       {/* Header */}
       <div style={{ textAlign: "center", marginBottom: 32 }}>
@@ -168,7 +168,7 @@ export default function App() {
           color: "#666",
           textTransform: "uppercase",
           marginBottom: 8,
-          fontFamily: "monospace",
+          fontFamily: "'DM Mono', monospace",
         }}>BLOCKCHAIN ARCHITECTURE</div>
         <h1 style={{
           fontSize: 22,
@@ -225,7 +225,7 @@ export default function App() {
               fontWeight: 700,
               color: slide.accent,
               opacity: 0.2,
-              fontFamily: "monospace",
+              fontFamily: "'DM Mono', monospace",
               lineHeight: 1,
             }}>{slide.number}</div>
             <div>
@@ -233,7 +233,7 @@ export default function App() {
                 fontSize: 10,
                 letterSpacing: "0.25em",
                 color: slide.accent,
-                fontFamily: "monospace",
+                fontFamily: "DM Mono', monospace",
                 marginBottom: 4,
               }}>TOPIC {slide.number} · {slide.tag}</div>
               <h2 style={{
@@ -268,7 +268,7 @@ export default function App() {
             }}>
               <div style={{
                 fontSize: 10,
-                fontFamily: "monospace",
+                fontFamily: "inter",
                 letterSpacing: "0.15em",
                 color: slide.accent,
                 marginBottom: 8,
@@ -279,7 +279,7 @@ export default function App() {
                 color: "#B8C0CC",
                 margin: 0,
                 lineHeight: 1.65,
-                fontFamily: "Georgia, serif",
+                fontFamily: "'DM Sans', sans-serif",
               }}>{pt.text}</p>
             </div>
           ))}
@@ -317,7 +317,7 @@ export default function App() {
             cursor: "pointer",
             padding: "10px 20px",
             fontSize: 12,
-            fontFamily: "monospace",
+            fontFamily: "'DM Mono', monospace",
             letterSpacing: "0.1em",
             transition: "all 0.2s",
           }}
@@ -348,7 +348,7 @@ export default function App() {
             cursor: "pointer",
             padding: "10px 20px",
             fontSize: 12,
-            fontFamily: "monospace",
+            fontFamily: "'DM Mono', monospace",
             letterSpacing: "0.1em",
             transition: "all 0.2s",
           }}
@@ -364,7 +364,7 @@ export default function App() {
         marginTop: 24,
         fontSize: 11,
         color: "#333",
-        fontFamily: "monospace",
+        fontFamily: "'DM Mono', monospace",
         letterSpacing: "0.1em",
       }}>
         {active + 1} / {slides.length} — {slide.tag}
