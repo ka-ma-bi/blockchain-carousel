@@ -268,7 +268,7 @@ export default function App() {
             }}>
               <div style={{
                 fontSize: 10,
-                fontFamily: "inter",
+                fontFamily: "'DM Mono', monospace",
                 letterSpacing: "0.15em",
                 color: slide.accent,
                 marginBottom: 8,
